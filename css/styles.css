@@ -24,9 +24,6 @@
     --letter-spacing: 0.03em;
     --main-font-size: 14px;
     --footer-color: #2f303a;
-
-
-
 }
 
 .body { 
@@ -38,10 +35,6 @@
 
 .list {
     list-style: none;
-}
-
-.link {
-    text-decoration: none;
 }
 
 .visually-hidden {
@@ -65,7 +58,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* accent-color: #2196F3; */
+    /* color: var(--accent-color); */
 }
 
 .logo-name {
@@ -75,6 +68,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 ul {
@@ -171,18 +165,21 @@ ul {
 .team {
     background-color: var(--additional-background-color);
 }
+
 .team-item {
     background-color: var(--background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
 .team-member {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
     text-align: center;
 }
+
 .job-title {
     font-size: 16px;
     line-height: 1.17;
@@ -191,9 +188,11 @@ ul {
 }
 
 /* footer */
+
 .footer {
     background-color: var(--footer-color);
 }
+
 .second-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -201,6 +200,7 @@ ul {
     line-height: 1.17;
     color: var(--accent-color);
 }
+
 .logo-second {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -208,22 +208,27 @@ ul {
     line-height: 1.17;
     color: var(--background-color);
 }
+
 .footer-point {
     line-height: 1.71;
     font-style: normal;
     color: var(--background-color);
 }
+
 .footer-point:hover, .footer-point:focus {
     color: var(--accent-color);
 }
+
 .footer-link {
     line-height: 1.71;
     font-style: normal;
     color: var(--background-color);
 }
+
 .footer-link:hover, .footer-link:focus {
     color: var(--accent-color);
 }
+
 /* portfolio */
 .portfolio-btn {
     font-family: inherit;
