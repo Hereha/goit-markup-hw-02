@@ -82,7 +82,9 @@ ul {
 }
 
 /* header-nav  треба допомога*/
-
+.header {
+    margin-top: 0;
+}
 .header-link {
     color: var(--primary-text-color);
     font-weight: 500;
