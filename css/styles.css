@@ -24,6 +24,7 @@
     --letter-spacing: 0.03em;
     --main-font-size: 14px;
     --footer-color: #2f303a;
+    --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
 }
 
 .header { 
@@ -99,9 +100,10 @@ ul {
 }
 
 /* header-nav  треба допомога*/
+
 .header {
     margin-top: 0;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 .header-link {
     color: var(--primary-text-color);
@@ -166,6 +168,7 @@ ul {
 }
 
 /* section */
+
 .benefits-subtitle {
     font-size: var(--main-font-size);
     font-weight: 700;
@@ -176,6 +179,8 @@ ul {
     line-height: 1.71;
     color: var(--second-text-color);
 }
+
+/* gallery */
 
 .gallery-title {
     font-weight: 700;
@@ -217,7 +222,24 @@ ul {
     background-color: var(--footer-color);
 }
 
-.second-logo {
+.footer-link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer-link:hover, .footer-link:focus {
+    color: var(--accent-color);
+}
+
+.footer-logo .link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    color: var(--accent-color);
+}
+
+.logo-web {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -243,17 +265,8 @@ ul {
     color: var(--accent-color);
 }
 
-.footer-link {
-    line-height: 1.71;
-    font-style: normal;
-    color: var(--background-color);
-}
-
-.footer-link:hover, .footer-link:focus {
-    color: var(--accent-color);
-}
-
 /* portfolio */
+
 .portfolio-btn {
     font-family: inherit;
     color: var(--primary-text-color);
