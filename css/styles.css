@@ -27,7 +27,7 @@
     --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
 }
 
-.header { 
+.body { 
     font-family:'Roboto', sans-serif;
     color: var(--primary-text-color);
     background-color: var(--background-color);
@@ -117,6 +117,10 @@ ul {
     color: var(--accent-color);
 } 
 .header-link:focus {
+    color: var(--accent-color);
+}
+
+.current {
     color: var(--accent-color);
 }
 
@@ -296,8 +300,5 @@ ul {
     line-height: 1.88;
     color: var(--second-text-color);
 }
-.current {
-    color: var(--background-color);
-    background-color: var(--accent-color);
-}
+
 
