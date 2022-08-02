@@ -52,6 +52,10 @@ ul {
 
 button {
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
 }
 
 img {
@@ -416,10 +420,10 @@ margin-bottom: 94px;
 .portfolio-list {
     outline: 2px solid tomato;
     display: flex;
-    gap: 8;
+    gap: 8px;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    margin-bottom: 50px;
     /* margin-left: 512px;
     margin-right: 513px; */
     }
@@ -458,12 +462,12 @@ margin-bottom: 94px;
     border: 0;
 }
 
-.portfolio-project.list {
+.portfolio-project {
     outline: 2px solid tomato;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    text-align: center;
+    
 }
 
 /* .portfolio-title {
@@ -473,10 +477,13 @@ align-items: center;
     align-items: center;
 } */
 
+.portfolio-description {
+    padding: 20px 24px;
+}
 
-
-.portfolio-item {
+.portfolio-list-item {
     background-color: var(--background-color);
+    width: calc((100% - 2 * 30px) / 3);
 }
 .portfolio-title {
     font-weight: 700;
