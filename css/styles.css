@@ -408,17 +408,20 @@ margin-left: auto;
 }
 
 /* portfolio */
+
 .header-container.container {
 margin-bottom: 94px;
 }
 
-.portfolio-list.list {
+.portfolio-list {
+    outline: 2px solid tomato;
     display: flex;
     gap: 8;
+    align-items: center;
+    justify-content: center;
     padding: 50px;
     /* margin-left: 512px;
     margin-right: 513px; */
-    align-items: center;
     }
 
     /* .buttons-list-item:not(:last-child) {
@@ -437,6 +440,7 @@ margin-bottom: 94px;
     letter-spacing: var(--letter-spacing);
     border-radius: 4px;
     border: 0;
+    padding: 6px 22px;
 }
 
 .portfolio-btn:hover {
@@ -454,7 +458,8 @@ margin-bottom: 94px;
     border: 0;
 }
 
-.portfolio-gallery.list {
+.portfolio-project.list {
+    outline: 2px solid tomato;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
